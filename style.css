@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f6f8fa;
+  width: 100%;
+}
+
+nav hr {
+  /* border: 1px solid black; */
+  width: 10px;
+  margin: 2px 8px;
+}
+
+.hamburger-menu {
+  border: 1px solid black;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+.left-nav {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+/* right nav */
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.right-nav input {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #59636e;
+}
+
+.right-nav button {
+  padding: 6px 6px 3px 6px;
+  border-radius: 6px;
+  border: 1px solid grey;
+}
+
+.copilot {
+  display: flex;
+}
+
+.copilot button {
+  border-radius: 3px 0 0 3px !important ;
+}
+
+.profile {
+  border-radius: 50% !important;
+}
+
+.profile img {
+  width: 20px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  nav input:placeholder-shown {
+    text-overflow: ellipsis;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav h4 {
+    width: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .create-repo,
+  .issues,
+  .pull-requests,
+  .pipeline {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  nav h4 {
+    display: none;
+  }
+}
