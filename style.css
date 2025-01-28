@@ -400,3 +400,19 @@ button:hover {
 .brand-logo h4:hover {
   cursor: pointer;
 }
+
+p {
+  color: #59636e;
+}
+
+#copilot a,
+#install-github a {
+  color: blue !important;
+}
+
+.blue-anchor a {
+  color: blue !important;
+}
+.blue-anchor a:hover {
+  text-decoration: underline;
+}
