@@ -416,3 +416,8 @@ p {
 .blue-anchor a:hover {
   text-decoration: underline;
 }
+
+input:focus {
+  border-color: blue;
+  outline: none;
+}
