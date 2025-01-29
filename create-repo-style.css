@@ -1,0 +1,167 @@
+hr {
+  margin: 10px 0;
+}
+
+h4 {
+  margin: 10px 0;
+}
+
+h1 {
+  margin: 8px 0;
+}
+
+input {
+  border: 1px solid grey;
+}
+
+input:focus {
+  border-color: blue;
+  outline: none;
+}
+
+button {
+  border: 1px solid grey;
+  background-color: rgb(238, 237, 245);
+}
+
+.create-repo-section {
+  margin: 0 auto;
+  max-width: 888px;
+  width: 100%;
+  padding: 50px;
+}
+
+.repo__blue-anchor {
+  color: blue;
+  text-decoration: underline;
+}
+
+.avatar {
+  width: 20px;
+  border-radius: 50%;
+}
+
+.owner-repo-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.model-owner-repo {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+.repo {
+  display: flex;
+  flex-direction: column;
+}
+
+.slash {
+  font-size: 30px;
+}
+
+.owner button {
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.repo input {
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.repo-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.repo-description input {
+  padding: 6px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.public,
+.private {
+  gap: 20px;
+  display: flex;
+}
+
+.public input[type="radio"] {
+  accent-color: blue;
+}
+
+.public-description,
+.private-description {
+  align-items: center;
+  display: flex;
+  margin: 8px 0;
+  gap: 4px;
+}
+
+.readme {
+  gap: 10px;
+  align-items: flex-start;
+  display: flex;
+}
+
+.add-ignore button,
+.choose-license button {
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: flex;
+  gap: 5px;
+}
+
+.readme p,
+.add-ignore p,
+.choose-license p {
+  font-size: 14px;
+}
+
+.initalize-repo a {
+  text-decoration: underline;
+  color: blue;
+}
+
+.suggested-name {
+  color: green;
+  font-weight: bold;
+}
+
+.create-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.create-repo-btn {
+  padding: 8px 16px;
+  color: white;
+  background-color: rgb(3, 155, 3);
+  border-radius: 7px;
+}
+
+.initalize-repo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.caution {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+footer {
+  font-size: 14px;
+  margin-top: 120px;
+}
