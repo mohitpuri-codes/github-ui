@@ -421,3 +421,89 @@ input:focus {
   border-color: blue;
   outline: none;
 }
+
+.grid-left {
+  padding-right: 35px;
+}
+
+@media screen and (max-width: 1440px) {
+  .main-section-right {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .grid-right {
+    display: none;
+  }
+
+  footer {
+    flex-wrap: wrap;
+  }
+  .main-section-right {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    flex-wrap: wrap;
+  }
+  .main-section-right {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-left {
+    padding-right: 0;
+  }
+
+  .use-this-tools-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-section-left {
+    padding: 20px;
+    border: 1px solid #abb6c2;
+    margin: 20px;
+    border-radius: 8px;
+  }
+  .use-this-tools-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 572px) {
+  .use-this-tools-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    margin: 20px 0;
+  }
+}
+@media screen and (max-width: 508px) {
+  .btn-small-hidden {
+    display: none !important;
+  }
+  .tutorials-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
