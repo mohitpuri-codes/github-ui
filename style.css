@@ -187,6 +187,8 @@ nav hr {
 
 .send {
   position: absolute;
+  border: none;
+  background-color: transparent;
   right: 10px;
 }
 
@@ -308,6 +310,12 @@ nav hr {
 
 .repo {
   display: flex;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+}
+
+.repo-last {
+  border-bottom: none;
 }
 
 .repo img {
@@ -506,4 +514,21 @@ input:focus {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.explore-repo-user {
+  color: black;
+}
+.explore-repo-user:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
 }
