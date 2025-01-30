@@ -17,11 +17,11 @@
                     <hr>
                 </div>
                 <div class="brand-logo">
-                    <svg height="32" aria-hidden="true" viewBox="0 0 24 24" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
+                    <a href="#"><svg height="32" aria-hidden="true" viewBox="0 0 24 24" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
                         <path d="M12.5.75C6.146.75 1 5.896 1 12.25c0 5.089 3.292 9.387 7.863 10.91.575.101.79-.244.79-.546 0-.273-.014-1.178-.014-2.142-2.889.532-3.636-.704-3.866-1.35-.13-.331-.69-1.352-1.18-1.625-.402-.216-.977-.748-.014-.762.906-.014 1.553.834 1.769 1.179 1.035 1.74 2.688 1.25 3.349.948.1-.747.402-1.25.733-1.538-2.559-.287-5.232-1.279-5.232-5.678 0-1.25.445-2.285 1.178-3.09-.115-.288-.517-1.467.115-3.048 0 0 .963-.302 3.163 1.179.92-.259 1.897-.388 2.875-.388.977 0 1.955.13 2.875.388 2.2-1.495 3.162-1.179 3.162-1.179.633 1.581.23 2.76.115 3.048.733.805 1.179 1.825 1.179 3.09 0 4.413-2.688 5.39-5.247 5.678.417.36.776 1.05.776 2.128 0 1.538-.014 2.774-.014 3.162 0 .302.216.662.79.547C20.709 21.637 24 17.324 24 12.25 24 5.896 18.854.75 12.5.75Z"></path>
-                    </svg>
+                    </svg></a>
                 </div>
-                <h4>Dashboard</h4>
+                <h4><a href="#">Dashboard</a></h4>
             </div>
             <!-- right nav -->
              <div class="right-nav">
@@ -78,7 +78,7 @@
 
     <main class="main-section" aria-label="main page of github">
         <!-- left-section of main -->
-        <div class="main-section-left" aria-labelledby="top-repositories">
+        <aside class="main-section-left" aria-labelledby="top-repositories">
             <div class="create-new-repo">
                 <h4 id="top-repositories">Top repositories</h4>
                 <button class="create-new-repo-btn" title="create new repo">
@@ -90,69 +90,78 @@
             <div class="find-repo">
                 <input type="text" placeholder="Find a repository...">
                 <ul>
-                    <li><img src="https://avatars.githubusercontent.com/u/194055453?v=4" alt="user avatar"> <span>mohitpuri-codes/learn-git</span></li>
-                    <li><img src="https://avatars.githubusercontent.com/u/194055453?v=4" alt="user avatar"> <span>
-                        mohitpuri-codes/landing-page</span></li>
-                    <li><img src="https://avatars.githubusercontent.com/u/194055453?v=4" alt="user avatar"> <span>mohitpuri-codes/insure-page</span></li>
-                    <li><img src="https://avatars.githubusercontent.com/u/37713493?s=16&amp;v=4" alt="user avatar"> <span>firstcontributions/first-contributions</span></li>
-                    <li><img src="https://avatars.githubusercontent.com/u/194055453?v=4" alt="user avatar"> <span>mohitpuri-codes/recipe-page</span></li>
-                    <li><img src="https://avatars.githubusercontent.com/u/194055453?v=4" alt="user avatar"> <span>inshiya-ravat/demo</span></li>
+                    <li><img src="https://avatars.githubusercontent.com/u/194055453?v=4" alt="user avatar"> <span><a href="#" style="color: black;">mohitpuri-codes/learn-git</a></span></li>
+                    <li><img src="https://avatars.githubusercontent.com/u/194055453?v=4" alt="user avatar"> <span><a href="#" style="color: black;">mohitpuri-codes/landing-page</a>
+                        </span></li>
+                    <li><img src="https://avatars.githubusercontent.com/u/194055453?v=4" alt="user avatar"> <span><a href="#"  style="color: black;">mohitpuri-codes/insure-page</a></span></li>
+                    <li><img src="https://avatars.githubusercontent.com/u/37713493?s=16&amp;v=4" alt="user avatar"> <span><a href="#" style="color: black;">firstcontributions/first-contributions</a></span></li>
+                    <li><img src="https://avatars.githubusercontent.com/u/194055453?v=4" alt="user avatar"> <span><a href="#" style="color: black;">mohitpuri-codes/recipe-page</a></span></li>
+                    <li><img src="https://avatars.githubusercontent.com/u/194055453?v=4" alt="user avatar"> <span><a href="#" style="color: black;">inshiya-ravat/demo</a></span></li>
                     <li class="show-more">Show more</li>
                 </ul>
             </div>
-        </div>
+        </aside>
         <!-- right section of main -->
         <div class="main-section-right grid-container" aria-label="right section in main page">
             <div class="grid-left" >
                 <div class="copilot-container">
                     <input type="text" placeholder="Ask Copilot" >
-                    <div class="send" aria-label="send your response to copilot">
+                    <button class="send" aria-label="send your response to copilot">
                         <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-paper-airplane Button-visual">
                             <path d="M.989 8 .064 2.68a1.342 1.342 0 0 1 1.85-1.462l13.402 5.744a1.13 1.13 0 0 1 0 2.076L1.913 14.782a1.343 1.343 0 0 1-1.85-1.463L.99 8Zm.603-5.288L2.38 7.25h4.87a.75.75 0 0 1 0 1.5H2.38l-.788 4.538L13.929 8Z"></path>
                         </svg>
-                    </div>
+                    </button>
                 </div>
-                <div class="copilot-suggestions" aria-label="suggestions by copilot">
-                    <button aria-labelledby="gen-html"> <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
+                <ul class="copilot-suggestions" aria-label="suggestions by copilot">
+                    <li><button aria-labelledby="gen-html"> <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
                         <path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path>
                         </svg> 
                         <span id="gen-html"> Generate an HTML/JS calculator</span>
-                    </button>
-                    <button aria-labelledby="bugs" class="btn-small-hidden"> <svg style="fill: rgba(197, 13, 40,1);"  aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bug">
+                    </button></li>
+                    <li><button aria-labelledby="bugs" class="btn-small-hidden"> <svg style="fill: rgba(197, 13, 40,1);"  aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bug">
                         <path d="M4.72.22a.75.75 0 0 1 1.06 0l1 .999a3.488 3.488 0 0 1 2.441 0l.999-1a.748.748 0 0 1 1.265.332.75.75 0 0 1-.205.729l-.775.776c.616.63.995 1.493.995 2.444v.327c0 .1-.009.197-.025.292.408.14.764.392 1.029.722l1.968-.787a.75.75 0 0 1 .556 1.392L13 7.258V9h2.25a.75.75 0 0 1 0 1.5H13v.5c0 .409-.049.806-.141 1.186l2.17.868a.75.75 0 0 1-.557 1.392l-2.184-.873A4.997 4.997 0 0 1 8 16a4.997 4.997 0 0 1-4.288-2.427l-2.183.873a.75.75 0 0 1-.558-1.392l2.17-.868A5.036 5.036 0 0 1 3 11v-.5H.75a.75.75 0 0 1 0-1.5H3V7.258L.971 6.446a.75.75 0 0 1 .558-1.392l1.967.787c.265-.33.62-.583 1.03-.722a1.677 1.677 0 0 1-.026-.292V4.5c0-.951.38-1.814.995-2.444L4.72 1.28a.75.75 0 0 1 0-1.06Zm.53 6.28a.75.75 0 0 0-.75.75V11a3.5 3.5 0 1 0 7 0V7.25a.75.75 0 0 0-.75-.75ZM6.173 5h3.654A.172.172 0 0 0 10 4.827V4.5a2 2 0 1 0-4 0v.327c0 .096.077.173.173.173Z"></path>
                     </svg> 
                         <span id="bugs"> Recent bugs in primer/react</span>
-                    </button>
-                    <button aria-labelledby="help" class="btn-small-hidden"> <svg style="fill: rgba(120, 58, 228,1);" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-light-bulb">
+                    </button></li>
+                    <li><button aria-labelledby="help" class="btn-small-hidden"> <svg style="fill: rgba(120, 58, 228,1);" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-light-bulb">
                         <path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path>
                     </svg>
                         <span id="help"> How can you help?</span>
-                    </button>
-                </div>
+                    </button></li>
+                </ul>
                 
                 <div class="home-container">
                     <h2>Home</h2>
-                    <button><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-filter mr-2">
-                        <path d="M.75 3h14.5a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1 0-1.5ZM3 7.75A.75.75 0 0 1 3.75 7h8.5a.75.75 0 0 1 0 1.5h-8.5A.75.75 0 0 1 3 7.75Zm3 4a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path>
-                    </svg><span>Filter </span></button>
+                    <button>
+                        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-filter mr-2">
+                            <path d="M.75 3h14.5a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1 0-1.5ZM3 7.75A.75.75 0 0 1 3.75 7h8.5a.75.75 0 0 1 0 1.5h-8.5A.75.75 0 0 1 3 7.75Zm3 4a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path>
+                        </svg>
+                        <span>Filter
+                            <select name="filter-content" id="filter">
+                                <option value="by category">by category</option>
+                                <option value="by learning">by learning</option>
+                                <option value="by length">by length</option>
+                            </select>
+                         </span>
+                    </button>
                 </div>
                 <div class="tutorials-grid">
-                    <div class="tutorial" aria-labelledby="intro-to-github">
-                        <h4 id="intro-to-github" class="blue-anchor"><a href="#">Introduction to GitHub</a></h4>
-                        <p><a href="#">Get started using GitHub in less than an hour.</a></p>
-                    </div>
-                    <div class="tutorial" aria-labelledby="github-pages">
-                        <h4 id="github-pages" class="blue-anchor"><a href="#">Github pages</a></h4>
-                        <p><a href="#">Create a site or blog from your GitHub repositories with GitHub Pages.</a></p>
-                    </div>
-                    <div class="tutorial" aria-labelledby="code-with-copilot"> 
-                        <h4 id="code-with-copilot" class="blue-anchor"><a href="#">Code with Copilot</a></h4>
-                        <p><a href="#">Develop with AI-powered code suggestions using GitHub Copilot, Codespaces, and VS Code.</a></p>
-                    </div>
-                    <div class="tutorial" aria-labelledby="github-actions">
-                        <h4 id="github-actions" class="blue-anchor"><a href="#">Hello Github Actions</a></h4>
-                        <p><a href="#">Create a GitHub Action and use it in a window.</a></p>
-                    </div>
+                    <a href="#" class="tutorial" aria-label="intro-to-github">
+                        <h4 id="intro-to-github" class="blue-anchor">Introduction to GitHub</h4>
+                        <p>Get started using GitHub in less than an hour.</p>
+                    </a>
+                    <a href="#" class="tutorial" aria-label="github-pages">
+                        <h4 id="github-pages" class="blue-anchor">Github pages</h4>
+                        <p>Create a site or blog from your GitHub repositories with GitHub Pages.</p>
+                    </a>
+                    <a href="#" class="tutorial" aria-label="code-with-copilot"> 
+                        <h4 id="code-with-copilot" class="blue-anchor">Code with Copilot</h4>
+                        <p>Develop with AI-powered code suggestions using GitHub Copilot, Codespaces, and VS Code.</p>
+                    </a>
+                    <a href="#" class="tutorial" aria-label="github-actions">
+                        <h4 id="github-actions" class="blue-anchor">Hello Github Actions</h4>
+                        <p>Create a GitHub Action and use it in a window.</p>
+                    </a>
                 </div>
                 <div class="use-this-tools-container" aria-label="use this tools of trade">
                     <div class="use-this-tools">
@@ -226,10 +235,10 @@
                                 <div class="repositories-heading__title">
                                     <span>
                                         <img src="	https://avatars.githubusercontent.com/u/4621650?s=40&v=4" alt="github users avatar">
-                                        <h4> publiclab / plots2</h4>
+                                        <h4> <a href="#" class="explore-repo-user">publiclab / plots2</a></h4>
                                     </span>
                                     <span>
-                                        <button class="star">
+                                        <button class="star" title="star this repository">
                                             <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star mr-0 d-inline-block">
                                                 <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
                                             </svg>
@@ -242,16 +251,16 @@
                                 
                             </div>
                         </div>
-                        <hr style="border: -1.5px solid grey;">
+                        
                         <div class="repo">
                             <div class="repositories-heading">
                                 <div class="repositories-heading__title">
                                     <span>
                                         <img src="	https://avatars.githubusercontent.com/u/4621650?s=40&v=4" alt="github users avatar">
-                                    <h4> pranaykgupta / GoodFirstIssue</h4>
+                                    <h4> <a href="#" class="explore-repo-user">pranaykgupta / GoodFirstIssue</a></h4>
                                     </span>
                                     <span>
-                                        <button class="star">
+                                        <button class="star" title="star this repository">
                                             <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star mr-0 d-inline-block">
                                                 <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
                                             </svg>
@@ -263,16 +272,16 @@
                                 </div>
                             </div>
                         </div>
-                        <hr style="border: -1.5px solid grey;">
+                        
                         <div class="repo">
                             <div class="repositories-heading">
                                 <div class="repositories-heading__title">
                                     <span>
                                         <img src="	https://avatars.githubusercontent.com/u/4621650?s=40&v=4" alt="github users avatar">
-                                    <h4>  souravjain540 / Basic-Python-Programs</h4>
+                                    <h4>  <a href="#" class="explore-repo-user">souravjain540 / Basic-Python-Programs</a></h4>
                                     </span>
                                     <span>
-                                        <button class="star">
+                                        <button class="star" title="star this repository">
                                             <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star mr-0 d-inline-block">
                                                 <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
                                             </svg>
@@ -284,16 +293,16 @@
                                 </div>
                             </div>
                         </div>
-                        <hr style="border: -1.5px solid grey;">
-                        <div class="repo">
+                        
+                        <div class="repo repo-last">
                             <div class="repositories-heading">
                                 <div class="repositories-heading__title">
                                     <span>
                                         <img src="	https://avatars.githubusercontent.com/u/4621650?s=40&v=4" alt="github users avatar">
-                                    <h4> danthareja / contribute-to-open-source</h4>
+                                    <h4> <a href="#" class="explore-repo-user">danthareja / contribute-to-open-source</a></h4>
                                     </span>
                                     <span>
-                                        <button class="star">
+                                        <button class="star" title="star this repository">
                                             <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star mr-0 d-inline-block">
                                                 <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
                                             </svg>
