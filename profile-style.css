@@ -1,13 +1,30 @@
 .bottom-nav__links {
   display: flex;
-  gap: 30px;
+  gap: 10px;
   align-items: center;
+}
+.bottom-nav__link:hover {
+  background-color: #e6e7e9;
+  border-radius: 7px;
+  color: black !important;
+}
+
+.bottom-nav__link {
+  padding: 10px 20px;
 }
 
 .bottom-nav__link a {
   gap: 10px;
   display: flex;
   align-items: center;
+}
+.bottom-nav__link a:hover {
+  color: #59636e;
+}
+
+#Dashboard:hover {
+  text-decoration: none;
+  color: #59636e;
 }
 
 /* main */
@@ -31,7 +48,7 @@ h1 {
   display: grid;
   gap: 20px;
   grid-template-columns: 0.5fr 2fr;
-  padding: 40px 0;
+  padding: 40px 0 0 0;
   max-width: 1240px;
   width: 100%;
 }
@@ -167,8 +184,10 @@ span svg {
 .github-contributions__year a {
   background-color: blue;
   color: white;
-  padding: 10px 50px 10px 10px;
+  padding: 10px 60px 10px 10px;
   border-radius: 7px;
+  position: sticky;
+  top: 40px;
 }
 
 #contribute {
@@ -203,4 +222,57 @@ span svg {
   display: flex;
   gap: 4px;
   align-items: center;
+}
+
+/* contribution activity */
+
+.contribution-activity {
+  margin: 30px 0;
+}
+
+.contribution-activity__title {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.commit-history {
+  display: flex;
+  margin: 40px 0;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.commit-history__detail-img {
+  border: 1px solid #59636e;
+  padding: 40px 100px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.commit-history__detail-img span {
+  color: green;
+  font-weight: bold;
+}
+.commit-history__detail-img p {
+  color: #59636e;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+nav {
+  border-bottom: none;
+}
+
+.bottom-nav {
+  border-bottom: 1px solid grey;
+  padding: 0px;
+}
+
+footer {
+  font-size: 14px;
 }
