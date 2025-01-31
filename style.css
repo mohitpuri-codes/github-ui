@@ -532,3 +532,8 @@ a:hover {
 li {
   list-style: none;
 }
+
+#Dashboard:hover {
+  text-decoration: none;
+  color: #59636e;
+}

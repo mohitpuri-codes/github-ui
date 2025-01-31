@@ -179,3 +179,8 @@ footer {
     padding: 30px;
   }
 }
+
+#Dashboard:hover {
+  text-decoration: none;
+  color: #59636e;
+}
