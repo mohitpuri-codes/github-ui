@@ -184,3 +184,8 @@ footer {
   text-decoration: none;
   color: #59636e;
 }
+
+.repo {
+  border-bottom: none;
+  padding-bottom: 0px;
+}
