@@ -130,7 +130,8 @@ nav hr {
 }
 
 .main-section {
-  display: flex;
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
 }
 
 .main-section-left {
@@ -382,7 +383,7 @@ nav hr {
 }
 
 .use-this-tool {
-  box-shadow: 3px 3px 3px grey;
+  box-shadow: 3px 3px 3px #abb6c2;
 }
 
 footer {

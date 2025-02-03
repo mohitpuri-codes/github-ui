@@ -276,3 +276,83 @@ nav {
 footer {
   font-size: 14px;
 }
+
+.hamburger-menu-bottom {
+  display: none;
+}
+
+@media only screen and (max-width: 1440px) {
+  main {
+    padding: 20px;
+  }
+
+  .profile-img img {
+    width: 270px;
+  }
+  .commit-history__detail-img {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .user-repos {
+    grid-template-columns: 1fr;
+  }
+  .github-contributions__year {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  .profile-page-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-container {
+    display: flex;
+    gap: 10px;
+  }
+
+  .profile-left button {
+    width: none;
+  }
+
+  .profile-img img {
+    width: 60px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .hamburger-menu-bottom {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .bottom-nav__links {
+    display: none;
+  }
+  .commit-history__detail-img {
+    width: 330px;
+    padding: 20px;
+  }
+  .commit-history__detail-img img {
+    width: 200px;
+  }
+  .github-contributions {
+    grid-template-columns: 1fr;
+  }
+  .month {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .commit-history1 {
+    display: none;
+  }
+}
