@@ -538,3 +538,20 @@ li {
   text-decoration: none;
   color: #59636e;
 }
+
+@media only screen and (min-width: 769px) {
+  .main-section {
+    display: grid;
+    grid-template-columns: 300px auto;
+    height: 100vh;
+  }
+  .main-section-left {
+    overflow-y: auto;
+  }
+  .main-section-right {
+    overflow-y: auto;
+  }
+  *::-webkit-scrollbar {
+    width: 0;
+  }
+}
